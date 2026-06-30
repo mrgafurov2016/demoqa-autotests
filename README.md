@@ -39,3 +39,10 @@ pytest
 
 ## Автор
 [Руслан] — QA Automation Engineer
+
+## Генерация Allure-отчёта
+
+```bash
+pytest --alluredir=allure-results
+allure serve allure-results
+```
